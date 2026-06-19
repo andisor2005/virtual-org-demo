@@ -8,7 +8,7 @@ spec:
   prune: true     # remove stale resources
   wait: true      # wait for all applied resources to become ready
   timeout: 3m     # give up after three minutes
-  path: ./apps/apps-nginx
+  path: ./clusters/apps/apps-nginx
   sourceRef:
     kind: GitRepository
     name: apps

@@ -16,7 +16,7 @@ spec:
       interval: 1h
   values:
     image:
-      registry: quay.io
+      registry: ghcr.io
       repository: bitnami/nginx
       tag: "1.30"
     replicaCount: 2

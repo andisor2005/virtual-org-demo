@@ -1,1 +1,5 @@
 replicas: 2
+image:
+  registry: docker.io
+  repository: bitnami/nginx
+  tag: 1.27.5-debian-12-r0

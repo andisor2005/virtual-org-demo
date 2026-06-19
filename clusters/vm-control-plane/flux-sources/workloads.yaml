@@ -10,7 +10,7 @@ spec:
     branch: main
   secretRef:
     name: github-auth
-  url: https://github.com/adrian-soroceanu-jnpr/virtual-org-demo.git
+  url: https://github.com/andisor2005/virtual-org-demo.git
   ignore: |
     .git/
     .github/

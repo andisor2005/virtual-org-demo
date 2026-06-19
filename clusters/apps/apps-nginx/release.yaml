@@ -18,7 +18,7 @@ spec:
     image:
       registry: docker.io
       repository: bitnami/nginx
-      tag: 1.30-debian-12
+      tag: 1.30
     replicaCount: 2
     service:
       type: ClusterIP

@@ -1,0 +1,16 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: apps
+  namespace: flux-system
+spec:
+  interval: 1m
+  timeout: 3m
+  ref:
+    branch: main
+  secretRef:
+    name: github-auth
+  url: https://github.com/adrian-soroceanu-jnpr/virtual-org-demo.git
+  ignore: |
+    .git/
+    .github/
